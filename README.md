@@ -9,3 +9,5 @@ Desarrollo de sitio web
 6.  python manage.py runserver
 7.  python manage.py startapp nombre_aplicacion
 8.  python manage.py migrate
+9.  pip install psycopg2
+10.  pip install djangorestframework
