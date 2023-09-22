@@ -11,3 +11,9 @@ Desarrollo de sitio web
 8.  python manage.py migrate
 9.  pip install psycopg2
 10.  pip install djangorestframework
+11.  pip install django-cors-headers
+  # Crear el codigo para crear la tabla
+13.  python manage.py makemigrations OPCIONAL_COLOCAR_DE_LO_QUE_DESEEMOS_MIGRAR
+ # Ejecutar el codigo creado
+ 14. python manage.py migrate NOMBRE_DELA_APP
+ 15. python manage.py createsuperuser
